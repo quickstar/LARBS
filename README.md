@@ -6,8 +6,7 @@
 On an Arch based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
-sh larbs.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/quickstar/LARBS/master/larbs.sh)"
 ```
 
 That's it.
